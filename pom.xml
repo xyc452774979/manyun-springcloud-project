@@ -12,7 +12,8 @@
         <module>provider</module>
         <module>consumer</module>
         <module>swagger</module>
-        <module>newtest</module>
+        <module>nacos-config</module>
+        <module>config</module>
     </modules>
 
     <properties>
