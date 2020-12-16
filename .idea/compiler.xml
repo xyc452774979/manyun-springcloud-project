@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consumer" />
+        <module name="redis" />
         <module name="provider" />
         <module name="swagger" />
         <module name="config" />
@@ -15,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="nacos-config" target="1.5" />
       <module name="newtest" target="1.5" />
+      <module name="redis-mybatis" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>
